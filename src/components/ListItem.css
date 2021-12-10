@@ -1,0 +1,16 @@
+.ListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  list-style: none;
+  line-height: 1.1;
+}
+
+.Completed {
+  text-decoration: line-through;
+}
+
+.ListItem > input {
+  margin: 10px;
+}
